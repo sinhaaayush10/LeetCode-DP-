@@ -12,4 +12,4 @@ class Solution:
                 res = max(res, (c+1)*matrix[r][c])
                 
         return res
-
+ 
