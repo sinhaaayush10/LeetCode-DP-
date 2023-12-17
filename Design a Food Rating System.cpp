@@ -33,12 +33,7 @@ public:
     
     string highestRated(string cuisine) {
         return begin(cuisine_ratings_food[cuisine])->second; 
-        
-        //first item will have highest absolute rating "we put all ratings in negative" (ordered_set)
-        //Why did we not put them in ascending order and just return the last element of ordered_set ?
-        //Ans : Because We can have a case like below
-        //{(15, abc), (16, ramen), (16, sushi)} -> Order in ordered_set. last element is not lexicographically smaller
-        //{(-16, ramen), (-16, sushi), (-15, abc)} -> First element is now lexicographically smaller
+     
     }
 };
 
