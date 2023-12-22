@@ -20,4 +20,3 @@ public:
         return left + ones;        
     }
 };
-
