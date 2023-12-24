@@ -11,3 +11,4 @@ class Solution {
     return min(res, n - res);
   }
 };
+
