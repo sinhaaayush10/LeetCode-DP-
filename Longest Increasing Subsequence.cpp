@@ -19,4 +19,3 @@ public:
         return *std::max_element(dp.begin(), dp.end());
     }
 };
-
