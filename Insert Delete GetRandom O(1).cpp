@@ -23,3 +23,4 @@ public:
         return *next(s.begin(), pos);
     }
 };
+
