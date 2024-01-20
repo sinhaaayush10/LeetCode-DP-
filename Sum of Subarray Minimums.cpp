@@ -19,7 +19,7 @@ public:
             }
             s1.push(i);
         }
-        
+    
         for(int i = n-1;i>=0;i--){
             while(!s2.empty() && arr[s2.top()]>=arr[i]){
                 prev_smaller[s2.top()] = s2.top() - i - 1;
