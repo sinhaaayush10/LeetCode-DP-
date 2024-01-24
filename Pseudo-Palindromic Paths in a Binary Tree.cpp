@@ -21,4 +21,3 @@ class Solution {
     dfs(root->right, path ^ 1 << root->val, ans);
   }
 };
-
