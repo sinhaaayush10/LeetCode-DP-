@@ -22,7 +22,7 @@ class Solution {
                     count += map.getOrDefault(sum-target,0);
                     map.put(sum,map.getOrDefault(sum,0)+1);
                 }
-            
+        
             }
         }
     
