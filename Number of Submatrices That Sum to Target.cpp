@@ -9,7 +9,7 @@ class Solution {
         }
     
         int count=0;
-        
+    
         for(int c1=0;c1<n;c1++){
             for(int c2=c1;c2<n;c2++){
                 
