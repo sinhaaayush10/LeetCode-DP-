@@ -7,7 +7,7 @@ class Solution {
                 matrix[row][col]+=matrix[row][col-1];
             }
         }
-        
+    
         int count=0;
         
         for(int c1=0;c1<n;c1++){
