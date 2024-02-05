@@ -3,7 +3,8 @@ public:
     int firstUniqChar(string s) {
         if(s.size() == 0) return -1;
         
-        vector<int> start(26), count(26);
+        vector<int> start(26), count(26); 
+        
         int ans = INT_MAX;
         
         for(int i = 0; i < s.size(); i++){
