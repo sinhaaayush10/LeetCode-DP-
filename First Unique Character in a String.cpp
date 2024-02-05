@@ -12,7 +12,7 @@ public:
                 start[cix] = i;
                 count[cix] = 1;
             }else{
-                count[cix] += 1; 
+                count[cix] += 1;  
             }
         }
         
