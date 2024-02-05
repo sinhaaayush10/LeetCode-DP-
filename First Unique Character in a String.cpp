@@ -9,7 +9,7 @@ public:
         for(int i = 0; i < s.size(); i++){
             int cix = s[i] - 'a';
             if(count[cix]==0){
-                start[cix] = i;
+                start[cix] = i; 
                 count[cix] = 1;
             }else{
                 count[cix] += 1;  
