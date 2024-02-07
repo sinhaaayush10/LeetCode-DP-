@@ -1,5 +1,5 @@
 class Solution {
- public:
+ public: 
   string frequencySort(string s) {
     const int n = s.length(); 
     string ans;
