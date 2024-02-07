@@ -1,7 +1,7 @@
 class Solution {
  public: 
   string frequencySort(string s) {
-    const int n = s.length();  
+    const int n = s.length();   
     string ans; 
     vector<int> count(128); 
     // bucket[i] := stores chars that appear i times in s
