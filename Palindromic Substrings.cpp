@@ -2,7 +2,7 @@ class Solution {
 public:
     int count{0};
     bool isPalindrome(string str){
-        int left  = 0;
+        int left  = 0; 
         int right = str.size()-1; 
 
         while(left<right){
