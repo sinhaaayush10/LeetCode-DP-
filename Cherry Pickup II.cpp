@@ -2,7 +2,7 @@ class Solution {
 public:
     int dp[70][70][70];
     int row, col;
-    int f(int r, int c0, int c1, vector<vector<int>>& grid){
+    int f(int r, int c0, int c1, vector<vector<int>>& grid){ 
         if (r>=row || c0<0 || c0>=col || c1<0 || c1>=col) return 0; 
         if (dp[r][c0][c1]!=-1) return dp[r][c0][c1];
         // whether 2 robots are in different cell
