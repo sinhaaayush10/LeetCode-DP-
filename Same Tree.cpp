@@ -4,7 +4,7 @@ public:
         if(p == NULL && q == NULL){
             return true;
         }else if(p != NULL && q == NULL){
-            return false;
+            return false; 
         }else if(p == NULL && q != NULL){
             return false;
         }
