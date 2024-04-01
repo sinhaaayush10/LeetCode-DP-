@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int lengthOfLastWord(string s) {
         int length = 0;
         bool counting = false;
