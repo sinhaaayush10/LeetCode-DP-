@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int amountOfTime(TreeNode* root, int start) {
         unordered_map<int, unordered_set<int>> map;
         convert(root, 0, map);
