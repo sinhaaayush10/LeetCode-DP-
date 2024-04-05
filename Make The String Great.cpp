@@ -2,7 +2,7 @@ class Solution {
 public:
     std::string makeGood(std::string s) {
         std::stack<char> stack;
-        
+         
         for (char c : s) {
             if (!stack.empty() && std::abs(c - stack.top()) == 32) {
                 stack.pop();
