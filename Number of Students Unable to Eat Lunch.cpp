@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int countStudents(vector<int>& students, vector<int>& sandwiches) {
+    int countStudents(vector<int>& students, vector<int>& sandwiches) { 
         queue<int> q;
 
         for(int x : students) {
