@@ -5,7 +5,7 @@ public:
         int n=score.size(); 
         vector<int2> sIdx(n);
         for(int i=0; i<n; i++)
-            sIdx.emplace_back(score[i], i);
+            sIdx.emplace_back(score[i], i); 
         sort(sIdx.rbegin(), sIdx.rend());
         vector<string> ans(n);
         ans[sIdx[0].second]="Gold Medal";
