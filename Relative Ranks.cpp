@@ -2,7 +2,7 @@ class Solution {
 public:
     using int2=pair<int, int>;
     vector<string> findRelativeRanks(vector<int>& score) {
-        int n=score.size();
+        int n=score.size(); 
         vector<int2> sIdx(n);
         for(int i=0; i<n; i++)
             sIdx.emplace_back(score[i], i);
