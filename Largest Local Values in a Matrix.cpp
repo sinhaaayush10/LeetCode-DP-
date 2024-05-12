@@ -9,7 +9,7 @@ public:
                 int temp = 0;
 
                 for(int k = i - 1; k <= i + 1; ++k) {
-                    for(int l = j - 1; l <= j + 1; ++l) {
+                    for(int l = j - 1; l <= j + 1; ++l) { 
                         temp = max(temp, grid[k][l]);
                     }
                 }
