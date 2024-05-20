@@ -1,8 +1,7 @@
 class Solution {
 public:
     int subsetXORSum(vector<int>& nums) {
-        // First create helper function, this function will help us to calculate
-        // when I'm including, when I'm not. The XOR of that array
+     
         return helper(nums, 0, 0); // nums, level, current XOR
     }
 
