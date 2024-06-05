@@ -10,7 +10,7 @@ public class Solution {
         List<String> result = new ArrayList<>();
         for (int i = 0; i < 26; i++) {
             while (last[i] > 0) {
-                result.add(Character.toString((char) ('a' + i)));
+                result.add(Character.toString((char) ('a' + i))); 
                 last[i]--;
             }
         }
