@@ -5,7 +5,7 @@ public class Solution {
         int[] last = count(words[0]);
         for (int i = 1; i < words.length; i++) {
             last = intersection(last, count(words[i]));
-        }
+        } 
         
         List<String> result = new ArrayList<>();
         for (int i = 0; i < 26; i++) {
